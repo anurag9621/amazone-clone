@@ -1,0 +1,83 @@
+.end {
+    display: flex;
+    background-color: #232F3E;
+    border-top: 3px double #fff;
+    margin-top: 100px;
+    flex-direction: column;
+    margin-top: 200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 700px;
+  }
+  .width__on__a{
+      width: 100%;
+      max-width: 1100px;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  .endcontacttop {
+    display: flex;
+    align-items: center;
+  }
+  .endcontacttop a {
+    padding: 0 10px;
+  }
+  .end img {
+    width: 250px;
+  }
+  .end a {
+    color: #fff;
+  }
+  .end h5 {
+    justify-content: center;
+    display: flex;
+    margin-top: 10px;
+  }
+.endbox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 90px;
+
+  }
+  .endbox ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-top: 50px;
+  }
+  .endbox ul a h3 {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+    font-weight: 600;
+  }
+  .endbox ul li {
+    line-height: 2em;
+    font-size: 1em;
+    font-weight: 300;
+  }
+  
+  .endbox ul a {
+    border: none;
+  }
+  .endbox a {
+    margin-top: 40px;
+    padding: 0 10px;
+    border-right: 0.5px solid black;
+    font-size: 1em;
+  }
+  .conditionterm {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    font-size: 0.75em;
+  }
+  .conditionterm a {
+    padding: 0 20px;
+  }
+  .end h5 {
+    justify-content: center;
+    display: flex;
+    margin-top: 10px;
+    color: #fff;
+  }

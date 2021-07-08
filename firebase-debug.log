@@ -1,0 +1,42 @@
+[debug] [2021-07-08T15:58:48.981Z] ----------------------------------------------------------------------
+[debug] [2021-07-08T15:58:48.983Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\anura\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2021-07-08T15:58:48.984Z] CLI Version:   9.14.0
+[debug] [2021-07-08T15:58:48.984Z] Platform:      win32
+[debug] [2021-07-08T15:58:48.984Z] Node Version:  v14.17.0
+[debug] [2021-07-08T15:58:48.984Z] Time:          Thu Jul 08 2021 21:28:48 GMT+0530 (India Standard Time)
+[debug] [2021-07-08T15:58:48.984Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-07-08T15:58:48.992Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-07-08T15:58:48.992Z] > authorizing via signed-in user (ap.web.cs@gmail.com)
+[debug] [2021-07-08T15:58:48.992Z] [iam] checking project collage-f83a7 for permissions ["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2021-07-08T15:58:48.994Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-07-08T15:58:48.994Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-07-08T15:58:50.350Z] <<< HTTP RESPONSE 200 {"cache-control":"no-cache, no-store, max-age=0, must-revalidate","pragma":"no-cache","date":"Thu, 08 Jul 2021 15:58:51 GMT","expires":"Mon, 01 Jan 1990 00:00:00 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-07-08T15:58:50.371Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/collage-f83a7:testIamPermissions  
+ {"permissions":["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2021-07-08T15:58:52.650Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Thu, 08 Jul 2021 15:58:53 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1311","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-07-08T15:58:52.652Z] >>> HTTP REQUEST POST https://iam.googleapis.com/v1/projects/collage-f83a7/serviceAccounts/collage-f83a7@appspot.gserviceaccount.com:testIamPermissions  
+ {"permissions":["iam.serviceAccounts.actAs"]}
+[debug] [2021-07-08T15:58:55.042Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Thu, 08 Jul 2021 15:58:56 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-07-08T15:58:55.043Z] > refreshing access token with scopes: []
+[debug] [2021-07-08T15:58:55.044Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-07-08T15:58:55.992Z] <<< HTTP RESPONSE 200 {"date":"Thu, 08 Jul 2021 15:58:57 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","pragma":"no-cache","expires":"Mon, 01 Jan 1990 00:00:00 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-07-08T15:58:56.002Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/collage-f83a7 [none]
+[debug] [2021-07-08T15:58:57.221Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/collage-f83a7 200
+[debug] [2021-07-08T15:58:57.222Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/collage-f83a7 {"projectId":"collage-f83a7","projectNumber":"951221177827","displayName":"collage","name":"projects/collage-f83a7","resources":{"hostingSite":"collage-f83a7","storageBucket":"collage-f83a7.appspot.com","locationId":"us-central"},"state":"ACTIVE"}
+[info] 
+[info] === Deploying to 'collage-f83a7'...
+[info] 
+[info] i  deploying functions, hosting 
+[debug] [2021-07-08T15:58:58.918Z] TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received undefined
+    at validateString (internal/validators.js:124:11)
+    at Object.join (path.js:402:7)
+    at Config.path (C:\Users\anura\AppData\Roaming\npm\node_modules\firebase-tools\lib\config.js:113:45)
+    at getChildEnvironment (C:\Users\anura\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\lifecycleHooks.js:50:49)
+    at runTargetCommands (C:\Users\anura\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\lifecycleHooks.js:71:14)
+    at C:\Users\anura\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\lifecycleHooks.js:122:24
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[error] 
+[error] Error: An unexpected error has occurred.
