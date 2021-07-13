@@ -117,7 +117,7 @@ function Footer() {
             |
             <a href="/">About Us</a>
           </div>
-          <h5 className="copyright_things">Copyright © 2020 Nari Jagran. All Rights Reserved</h5>
+          <h5 className="copyright_things">Copyright © 2020 Amazon . All Rights Reserved</h5>
           <h5 className="copyright_things"><a href="https://www.instagram.com/___mr_aaru___?r=nametag">Powered by A.P</a></h5>
           </div>
         </footer>
